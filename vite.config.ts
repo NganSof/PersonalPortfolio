@@ -9,6 +9,7 @@ export default defineConfig({
       external: ["prop-types"],
     },
     outDir: "dist",
+    chunkSizeWarningLimit: 1000,
   },
   plugins: [react(), tailwindcss()],
   resolve: {
