@@ -8,6 +8,7 @@ export default defineConfig({
     rollupOptions: {
       external: ["prop-types"],
     },
+    outDir: "dist",
   },
   plugins: [react(), tailwindcss()],
   resolve: {
