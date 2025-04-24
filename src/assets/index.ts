@@ -11,6 +11,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import webBakery from "./webBakery.png";
+import portfolio from "./portfolio.png";
+
 import LAIDON from "./company/LAIDON.jpg";
 import VIETJAPAN from "./company/VIETJAPAN PARTNER.jpg";
 import N404 from "./company/404.png";
@@ -34,6 +36,7 @@ export {
   tailwind,
   typescript,
   webBakery,
+  portfolio,
   LAIDON,
   VIETJAPAN,
   N404,

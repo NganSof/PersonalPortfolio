@@ -11,6 +11,7 @@ import {
   docker,
   web,
   webBakery,
+  portfolio,
   LAIDON,
   VIETJAPAN,
   N404,
@@ -181,7 +182,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: html,
+    image: portfolio,
     source_code_link: "gágsadf",
   },
   {
