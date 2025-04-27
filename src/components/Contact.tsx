@@ -26,6 +26,7 @@ const Contact = () => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -64,11 +65,11 @@ const Contact = () => {
         className="flex-[0.75] bg-[var(--black-100)] !p-8 rounded-2xl"
       >
         <p className={styles.heroSubText}>Get in touch</p>
-        <h3 className={styles.heroHeadText}>Contact</h3>
+        <h3 className={styles.heroHeadText}>Contact Email</h3>
         <form
           onSubmit={handleSubmit}
           ref={formRef}
-          className="!mt-12 flex !flex-col !gap-8"
+          className="!my-10 flex !flex-col !gap-8"
         >
           <label className="flex flex-col">
             <span className="!font-medium !mb-4 text-white">Your name</span>
@@ -110,6 +111,33 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        <h3 className={styles.heroHeadText}>Contact Other</h3>
+        <div className="!bg-[var(--tertiary)] !px-2 !py-4 rounded-2xl !mt-4">
+          <div>
+            Zalo: <span className="!text-[var(--secondary)]">0868781817</span>
+          </div>
+          <div>
+            Facebook:
+            <a
+              className="!pl-1 !text-[var(--secondary)]"
+              target="_blank"
+              href="https://www.facebook.com/trinhnellie96"
+            >
+              Trinh Ngoc Kim Ngan
+            </a>
+          </div>
+          <div>
+            LinkedIn:
+            <a
+              className="!pl-1 !text-[var(--secondary)]"
+              href="https://www.linkedin.com/in/trinh-ngoc-kim-ngan/"
+              target="_blank"
+            >
+              Trinh Ngoc Kim Ngan
+            </a>
+          </div>
+        </div>
       </motion.div>
     </div>
   );
