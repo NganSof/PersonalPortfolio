@@ -113,7 +113,7 @@ const Contact = () => {
         </form>
 
         <h3 className={styles.heroHeadText}>Contact Other</h3>
-        <div className="!bg-[var(--tertiary)] !px-2 !py-4 rounded-2xl !mt-4">
+        <div className="!bg-[var(--tertiary)] !px-2 !py-4 rounded-2xl !mt-4 !sm:w-[300px] !w-full">
           <div>
             Zalo: <span className="!text-[var(--secondary)]">0868781817</span>
           </div>
